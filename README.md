@@ -33,11 +33,10 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
         <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa yolu ona göre değiştirmelisiniz. </li>
         <li> Exe, ana klasörün içindeki <strong>"dist"</strong> adlı klasörün içinde belirecektir. Exe'yi oradan .csv, .pkl dosyalarının da bulunduğu ana klasöre taşıyınız.</li>
         <li> Exe'yi çalıştırarak programı başlatın </li>
-    </ol>
+ </ol>
 
 <h3> IDE'den açma </h3>
 Gerekli kütüphaneleri indirdikten sonra IDE içerisinden programı çalıştırabilirsiniz.
-
 
 Bu proje, Yazılım Mühendisliği 3. sınıf final ödevi kapsamında hazırlanmıştır.
  
