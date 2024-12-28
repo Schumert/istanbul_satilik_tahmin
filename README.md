@@ -38,5 +38,6 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
 <h3> IDE'den açma </h3>
 Gerekli kütüphaneleri indirdikten sonra IDE içerisinden programı çalıştırabilirsiniz.
 
+
 Bu proje, Yazılım Mühendisliği 3. sınıf final ödevi kapsamında hazırlanmıştır.
  
