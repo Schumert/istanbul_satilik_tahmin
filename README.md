@@ -29,7 +29,7 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
         "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\lib\xgboost.dll;xgboost/lib" 
         --add-data "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\VERSION;xgboost" --add-data "design;design"
         </code> kodu ile exe'ye çıkarmaya başlayın.</li>
-        <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa ona göre değiştirmelisiniz. XGBoost yoksa önce indirmelisiniz. </li>
+        <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa yolu ona göre değiştirmelisiniz. XGBoost yoksa önce indirmelisiniz. </li>
         <li> Exe klasörün içinde oluşan <strong>"dist"<strong> adlı klasörün içinde belirecektir. Exe'yi oradan .csv, .pkl dosyalarının da bulunduğu ana klasöre taşıyınız.</li>
         <li> Exe'yi çalıştırarak programı başlatabilirsiniz. </li>
     </ol>
