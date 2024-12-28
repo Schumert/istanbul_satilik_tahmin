@@ -27,7 +27,7 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
         <li>Konumu proje dosyasına getirin. (istanbul_satilik_tahmin)</li>
         <li><code>pyinstaller istanbul_satilik_fiyat_tahmin.py --onefile --windowed --add-data 
         "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\lib\xgboost.dll;xgboost/lib" 
-        --add-data "C:\Users\Ben\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\VERSION;xgboost" --add-data "design;design"
+        --add-data "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\VERSION;xgboost" --add-data "design;design"
         </code> kodu ile exe'ye çıkarmaya başlayın.</li>
         <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa ona göre değiştirmelisiniz. XGBoost yoksa önce indirmelisiniz. </li>
     </ol>
