@@ -23,9 +23,9 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
  <h3> Exe'ye Çıkarma </h3>
  <ol>
         <li>CMD'yi açın.</li>
-        <li><code>pip install pyinstaller</code> ile pyinstaller yoksa indirin.
-        <li>Konumu proje dosyasına getirin. (istanbul_satilik_tahmin)</li>
+        <li>pyinstaller inili değilse <code>pip install pyinstaller</code> ile indirin. </li>
         <li> XGBoost inili değilse <code> pip install xgboost </code> ile indirin. </li>
+        <li>Konumu proje dosyasına getirin. (istanbul_satilik_tahmin)</li>
         <li><code>pyinstaller istanbul_satilik_fiyat_tahmin.py --onefile --windowed --add-data 
         "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\lib\xgboost.dll;xgboost/lib" 
         --add-data "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\VERSION;xgboost" --add-data "design;design"
