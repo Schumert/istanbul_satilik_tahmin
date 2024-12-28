@@ -20,7 +20,7 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
 </ul>
 
  <h2 align="center"> 💻 Programı Çalıştırma 💻 </h2>
- <h1> Exe'ye Çıkarma </h1>
+ <h3> Exe'ye Çıkarma </h3>
  <ol>
         <li>CMD'yi açın.</li>
         <li><code>pip install pyinstaller</code> ile pyinstaller yoksa indirin.
@@ -32,7 +32,7 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
         <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa ona göre değiştirmelisiniz. XGBoost yoksa önce indirmelisiniz. </li>
     </ol>
 
-<h1> IDE'den açma </h1>
+<h3> IDE'den açma </h3>
 Gerekli kütüphaneleri indirdikten sonra IDE içerisinden programı çalıştırabilirsiniz.
 
 Bu proje, Yazılım Mühendisliği 3. sınıf final ödevi kapsamında hazırlanmıştır.
