@@ -25,13 +25,14 @@ Kullandığım veri kümesi: https://www.kaggle.com/datasets/aselasel/house-pric
         <li>CMD'yi açın.</li>
         <li><code>pip install pyinstaller</code> ile pyinstaller yoksa indirin.
         <li>Konumu proje dosyasına getirin. (istanbul_satilik_tahmin)</li>
+        <li> XGBoost inili değilse <code> pip install xgboost </code> ile indirin. </li>
         <li><code>pyinstaller istanbul_satilik_fiyat_tahmin.py --onefile --windowed --add-data 
         "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\lib\xgboost.dll;xgboost/lib" 
         --add-data "C:\Users\username\AppData\Local\Programs\Python\Python312\Lib\site-packages\xgboost\VERSION;xgboost" --add-data "design;design"
         </code> kodu ile exe'ye çıkarmaya başlayın.</li>
-        <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa yolu ona göre değiştirmelisiniz. XGBoost yoksa önce indirmelisiniz. </li>
-        <li> Exe klasörün içinde oluşan <strong>"dist"<strong> adlı klasörün içinde belirecektir. Exe'yi oradan .csv, .pkl dosyalarının da bulunduğu ana klasöre taşıyınız.</li>
-        <li> Exe'yi çalıştırarak programı başlatabilirsiniz. </li>
+        <li> Yukarıdaki xgboost.dll'i exe'ye dahil ettiğimiz bölüm için xgboost yolu sizde farklıysa yolu ona göre değiştirmelisiniz. </li>
+        <li> Exe, ana klasörün içindeki <strong>"dist"<strong> adlı klasörün içinde belirecektir. Exe'yi oradan .csv, .pkl dosyalarının da bulunduğu ana klasöre taşıyınız.</li>
+        <li> Exe'yi çalıştırarak programı başlatın </li>
     </ol>
 
 <h3> IDE'den açma </h3>
